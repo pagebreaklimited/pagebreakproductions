@@ -1,6 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://fonts.adobe.com/fonts/ivymode-variable">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagebreak Productions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(49% 81% at 45% 47%, #082d47 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #082D47FF 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #000000FF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #020304FF 1%, #000000FF 98%),radial-gradient(142% 91% at 111% 84%, #082D47FF 0%, #082D47FF 100%);
+            font-family: "ivymode-variable",sans-serif;
+            font-variation-settings: 'wght' 300, 'ital' 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .logo-link {
+            display: inline-block;
+            width: 250px;
+            height: 250px;
+            transition: opacity 0.3s ease;
+        }
+
+        .logo-link:hover {
+            opacity: 0.8;
+        }
+
+        .logo {
+            width: 250px;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+            .logo-link {
+                width: 180px;
+                height: 180px;
+            }
+
+            .logo {
+                width: 180px;
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="mailto:contact@pagebreakproductions.com" class="logo-link">
+            <img src="pagebreak.svg" alt="Pagebreak Logo" class="logo">
+        </a>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagebreak Productions</title>
